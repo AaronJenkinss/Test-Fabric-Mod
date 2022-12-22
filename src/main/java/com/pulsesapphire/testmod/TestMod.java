@@ -16,6 +16,6 @@ public class TestMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		Registry.register(Registries.ITEM, new Identifier("testItem", "test_item"), item1);
+		Registry.register(Registries.ITEM, new Identifier("testitem", "testitemm"), item1);
 	}
 }
