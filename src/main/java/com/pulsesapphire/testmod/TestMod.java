@@ -10,6 +10,7 @@ public class TestMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		// Adding a comment.
 		System.out.println("test");
 	}
 }
